@@ -1,10 +1,36 @@
-#modal{
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kbb.com%2Fhonda%2Fcivic%2F&psig=AOvVaw1cos9WopLeUrwbh_rX1Xkq&ust=1727975687586000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjA_JmZ8IgDFQAAAAAdAAAAABAE);
-    display: none;
-    background-color: black;
-    height: 20vh;
-    width: 50%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    padding: 20px;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 
 
+.a{
+
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
 }
